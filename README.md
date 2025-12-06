@@ -11,7 +11,7 @@ Desenvolvido por:
 
 Este projeto implementa um sistema de gerenciamento para o Hotel Descanso Garantido, atendendo às exigências das disciplinas Algoritmos e Estruturas de Dados I e Fundamentos de Engenharia de Software.
 
-O objetivo é substituir os controles manuais por um sistema em C, com armazenamento persistente usando arquivos binários, garantindo organização das informações do hotel.
+O objetivo é substituir os controles manuais por um sistema em C++, com armazenamento persistente usando arquivos binários, garantindo organização das informações do hotel.
 
 🧩 Funcionalidades do Sistema
 
