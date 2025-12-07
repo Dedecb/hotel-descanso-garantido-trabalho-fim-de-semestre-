@@ -2,6 +2,7 @@
 #define QUARTOS_H
 
 #include <cstring>
+#include <vector>
 
 const char QUARTOS_FILE[] = "quartos.bin";
 const int MAX_STATUS = 2; // 'D' desocupado, 'O' ocupado

@@ -2,10 +2,10 @@
 #include <limits>
 #include <vector>
 #include <cstring>
-#include "clientes.h"
-#include "funcionarios.h"
-#include "quartos.h"
-#include "estadias.h"
+#include "clientes.hpp"
+#include "funcionarios.hpp"
+#include "quartos.hpp"
+#include "estadias.hpp"
 
 using namespace std;
 

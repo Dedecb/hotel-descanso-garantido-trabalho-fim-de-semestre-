@@ -1,6 +1,6 @@
-#include "estadias.h"
-#include "clientes.h"
-#include "quartos.h"
+#include "estadias.hpp"
+#include "clientes.hpp"
+#include "quartos.hpp"
 #include <fstream>
 #include <iostream>
 #include <algorithm>

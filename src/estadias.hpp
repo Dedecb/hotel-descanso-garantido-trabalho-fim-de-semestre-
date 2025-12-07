@@ -3,8 +3,8 @@
 
 #include <cstring>
 #include <vector>
-#include "clientes.h"
-#include "quartos.h"
+#include "clientes.hpp"
+#include "quartos.hpp"
 
 const char ESTADIAS_FILE[] = "estadias.bin";
 
