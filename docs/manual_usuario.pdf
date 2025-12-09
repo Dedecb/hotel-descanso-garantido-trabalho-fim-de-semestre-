@@ -1,0 +1,70 @@
+Manual do Usuário
+Sistema de Gestão - Hotel Descanso Garantido
+Versão: 1.0 Desenvolvedores: André Luiz F. Rosa e Gustavo Paulino Cícero Disciplina: Trabalho Interdisciplinar (AEDs I / FES)
+
+1. Introdução
+Este software foi desenvolvido para informatizar os processos do Hotel Descanso Garantido, substituindo planilhas manuais por um sistema seguro e eficiente. O sistema permite o cadastro de hóspedes, funcionários e quartos, além de gerenciar reservas (estadias) com cálculo automático de diárias e pontos de fidelidade.
+
+2. Requisitos e Instalação
+Para executar o sistema, não é necessária instalação complexa, apenas os arquivos fornecidos.
+
+Sistema Operacional: Windows 10 ou 11.
+
+Arquivos Necessários: Certifique-se de que a pasta bin (contendo o executável) e a pasta data (para armazenamento) estejam no mesmo diretório.
+
+3. Como Executar
+Navegue até a pasta raiz do projeto.
+
+Entre na pasta bin.
+
+Dê um clique duplo no arquivo sistema_hotel.exe.
+
+O menu principal será exibido no terminal.
+
+Importante: Nunca apague a pasta data. É nela que o sistema guarda todas as informações dos clientes e reservas.
+
+4. Guia de Funcionalidades
+4.1. Cadastros (Opções 1, 2 e 3)
+Utilize estas opções para registrar novas entidades no sistema.
+
+Clientes: Exige Nome, Endereço e Telefone. O Código é gerado ou validado para ser único.
+
+Funcionários: Exige Nome, Cargo e Salário.
+
+Quartos: Exige Número, Capacidade (ex: 2 pessoas), Valor da Diária e Status inicial.
+
+Nota: O sistema impedirá o cadastro de dois quartos com o mesmo número.
+
+4.2. Realizar Reserva/Estadia (Opção 4)
+Esta é a função principal do sistema.
+
+Informe o Código do Cliente.
+
+Informe a Quantidade de Hóspedes.
+
+Digite a Data de Entrada e Data de Saída.
+
+Seleção Inteligente: O sistema buscará automaticamente um quarto que:
+
+Seja capaz de comportar o número de pessoas.
+
+Esteja desocupado (livre) no período escolhido.
+
+Se houver disponibilidade, a reserva é confirmada e o quarto muda para status "Ocupado".
+
+4.3. Pesquisas (Opções 6, 7 e 8)
+Permite consultar dados sem alterar informações.
+
+Você pode buscar clientes ou funcionários digitando o Nome ou o Código.
+
+A opção "Mostrar estadias de um cliente" lista todo o histórico de hospedagem daquele hóspede.
+
+4.4. Finalizar Estadia / Checkout (Opção 5)
+Utilize esta opção quando o cliente for embora.
+
+O sistema calculará automaticamente o Valor Total (Valor da Diária x Dias de Hospedagem).
+
+O status do quarto voltará para "Desocupado".
+
+O cliente receberá pontos no programa de fidelidade (10 pontos por dia).
+
