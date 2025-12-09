@@ -4,7 +4,7 @@
 #include <cstring>
 #include <vector>
 
-const char QUARTOS_FILE[] = "quartos.bin";
+const char QUARTOS_FILE[] = "quartos.dat";
 const int MAX_STATUS = 2; // 'D' desocupado, 'O' ocupado
 
 struct Quarto {

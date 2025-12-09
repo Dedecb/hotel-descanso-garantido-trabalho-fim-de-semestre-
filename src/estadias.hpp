@@ -6,7 +6,7 @@
 #include "clientes.hpp"
 #include "quartos.hpp"
 
-const char ESTADIAS_FILE[] = "estadias.bin";
+const char ESTADIAS_FILE[] = "estadias.dat";
 
 struct Data {
     int dia;

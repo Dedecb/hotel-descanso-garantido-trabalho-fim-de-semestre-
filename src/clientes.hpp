@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-const char CLIENTES_FILE[] = "clientes.bin";
+const char CLIENTES_FILE[] = "data/clientes.dat";
 const int MAX_NOME = 100;
 const int MAX_END = 150;
 const int MAX_TEL = 30;

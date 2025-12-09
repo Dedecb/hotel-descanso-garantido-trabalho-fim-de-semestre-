@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-const char FUNCIONARIOS_FILE[] = "funcionarios.bin";
+const char FUNCIONARIOS_FILE[] = "funcionarios.dat";
 const int MAX_NOME_FUNC = 100;
 const int MAX_TEL_FUNC = 30;
 const int MAX_CARGO = 50;
